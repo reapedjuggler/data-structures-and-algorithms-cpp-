@@ -9,7 +9,7 @@ using namespace std ;
 
 void start()// eat sleep code repeat ;
 // s0ber
-// below code has a time complexity of   O(n ^ 2)  { forgive me if i forgot to update this}
+// below code has a time complexity of   O(nlogn)  { forgive me if i forgot to update this}
 // reapedJuggler
 
 #include "bits/stdc++.h"
