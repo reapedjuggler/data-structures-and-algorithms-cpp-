@@ -29,3 +29,24 @@ struct fenwick {
   }
 
 } fen;
+
+
+// Counting Inversions using fenwick tree
+
+// just create the inversion array and apply the technique
+
+// reference Second thread yt channel education round 96
+
+  reps(i , n - 1 , 0) {
+
+    lld c = *(sett[t[i] - 'a'].begin());
+
+    sett[t[i] - 'a'].erase(c);
+
+    // cout << c << "  " << fen.query(c) << " iam c\n";
+
+    ans += fen.query(c);
+
+    fen.update(c , 1);
+
+  }
