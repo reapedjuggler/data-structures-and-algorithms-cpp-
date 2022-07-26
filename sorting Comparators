@@ -1,0 +1,10 @@
+struct cmp {
+    bool operator() (const pair <int , string> &lhs, const pair <int , string> &rhs) const {
+        
+        if (lhs.first != rhs.first)
+            return lhs.first > rhs.first;
+        else {
+            return (lhs.second < rhs.second);
+        }
+    }
+};
